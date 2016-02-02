@@ -36,10 +36,11 @@ p {
   height: 170px;
   text-align: center;
   background-color: #336600;
-  z-index: -1;
+  z-index: 0;
   color: white;
 }
 #aboutbox .headshot {
+  position: relative;
   background-image: url(images/arlencox.jpg);
   background-size: cover;
   background-position: center center;
@@ -50,6 +51,7 @@ p {
   height: 240px;
   border-radius: 15px;
   border: 4px solid white;
+  z-index: 1;
 }
 #aboutbox .headshot img {
   width: 100%;
@@ -126,3 +128,16 @@ p {
 #projectsbox h2 {
   display: inline;
 }
+
+/*
+@media (max-width: 6in) {
+  #aboutbox {
+    position: relative;
+  }
+
+  #contentbox {
+    position: relative;
+
+  }
+
+}*/
